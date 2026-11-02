@@ -61,7 +61,6 @@ public class Tarot extends Consulta {
     @Override
     public String consultarTrabajo() {
 
-        // Predicción especial para Elena
         if (esEspecial()) {
             return "Hoy será un día maravilloso en el trabajo. "
                     + "Tus alumnos te sorprenderán con proyectos increíbles, "
@@ -100,7 +99,6 @@ public class Tarot extends Consulta {
     @Override
     public String consultarSuerte() {
 
-        // Predicción especial para Elena
         if (esEspecial()) {
             return "Las cartas revelan que hoy la suerte está de tu lado, "
                     + "pero hay un pequeño detalle… "
