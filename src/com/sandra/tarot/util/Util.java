@@ -1,4 +1,3 @@
-
 package com.sandra.tarot.util;
 
 import javax.swing.*;
